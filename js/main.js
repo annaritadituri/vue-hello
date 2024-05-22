@@ -7,7 +7,8 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Hello Vue!'
+        title: 'Hello Vue!',
+        imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjoeMUlwIDt_k2nFOxfHwbxKthS_SdhF7amncZY-SKxQ&s'
       }
     }
   }).mount('#app')
